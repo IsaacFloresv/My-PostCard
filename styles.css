@@ -1,0 +1,53 @@
+body {
+	background: black;
+}
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 5px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 1px;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+h1 {
+	width: 350px;
+	margin: none;
+}
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	color: rgb(196, 195, 195);
+}
+p {
+	font-size: 15px;
+}
+.p1 {
+	margin-top: none;
+}
+.body-left {
+	padding: 5px;
+}
+.body-right {
+	padding: 5px;
+}
+button {
+	background-color: rgb(156, 144, 144);
+}
